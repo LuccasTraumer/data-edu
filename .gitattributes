@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+.csv filter=lfs diff=lfs merge=lfs -text
+*.csv filter=lfs diff=lfs merge=lfs -text
+MICRODADOS_ENEM_2022.csv filter=lfs diff=lfs merge=lfs -text
